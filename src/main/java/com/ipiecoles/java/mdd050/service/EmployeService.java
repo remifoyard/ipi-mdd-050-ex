@@ -25,6 +25,7 @@ public class EmployeService {
 
     public Employe findById(Long id){
         return employeRepository.findOne(id);
+
     }
 
     public Long countAllEmploye() {
